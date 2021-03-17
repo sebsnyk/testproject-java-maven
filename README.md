@@ -2,5 +2,5 @@
 
 To invoke the Snyk plugin:
 ```
-mvn test
+./mvnw test
 ```
