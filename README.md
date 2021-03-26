@@ -16,3 +16,8 @@ To execute `snyk test` and `snyk monitor`:
 ```
 ./mvnw install
 ```
+
+If you want to run the regular tests in the project but skip the `snyk test`, you can use this:
+```
+./mvnw test -Dsnyk.skip
+```
